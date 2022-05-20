@@ -44,7 +44,7 @@ Part 2: Designed Climate App - Flask API based on the queries developed in part 
     * Queried the dates and temperature observations of the most active station for the previous year of data
     * Returned a JSON list of temperature observations (TOBS) for the previous year
 
-  * /api/v1.0/<start> and /api/v1.0/<start>/<end>
+  * /api/v1.0/yyyy-mm-dd and /api/v1.0/yyyy-mm-dd/yyyy-mm-dd
     * Returned a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a given start or start-end range
     * When given the start only, calculated TMIN, TAVG, and TMAX for all dates greater than or equal to the start date
     * When given the start and the end date, calculated the TMIN, TAVG, and TMAX for dates from the start date through the end date (inclusive)
